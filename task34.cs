@@ -7,7 +7,7 @@ Console.Clear();
 int size = InputSizeArray(); // ввод размерности массива
 
 int[] array = new int[size]; // создание массива
-array = GetArrayNumber(size); // заполнение массiива случайными числами от 100 до 999
+array = GetArrayNumber(size); // заполнение масспшива случайными числами от 100 до 999
 
 int count = CoutingNumbers(array); // подсчет четных чисел в массиве
 OutputArray(array, count); // вывод результата на экран
